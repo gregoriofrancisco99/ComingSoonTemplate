@@ -1,0 +1,153 @@
+@font-face
+    {
+        font-family: 'Lobster';
+        src: local('../fonts/lobster/Lobster 1.4.otf'),
+            url('../fonts/lobster/Lobster 1.4.otf')
+    }
+
+@font-face
+    {
+        font-family: 'Manrope';
+        src: local('../fonts/Manrope/Manrope-VariableFont_Wght.ttf'),
+            url('../fonts/Manrope/Manrope-VariableFont_Wght.ttf')
+    }
+
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    main
+        {
+            font-size: 1em;
+        }
+
+        .info
+            {
+                float: left;
+                width: 70%;
+                height: 100vh;
+                background: linear-gradient(to right, rgb(166, 169, 197), rgb(131, 136, 180));
+
+                font-family: 'Manrope';
+                text-align: center;
+                text-transform: capitalize;
+            }
+            article
+                {
+                    padding: 11em;
+                    color: rgb(43, 35, 35);
+                }
+                article h1
+                    {
+                        font-size: x-large;
+                        font-weight: bolder;
+                    }
+
+                article p
+                    {
+                        padding: 1em 0;
+                        font-size: medium;
+                    }
+                
+                article form { padding-bottom: 5em;} article fieldset { border: none; } article label {display: none; }
+
+                article .text-box
+                    {
+                        height: 2.5em;
+                        width: 28em;
+
+                        padding-left: 0.5em;
+                        border: solid 1px #fff;
+                        outline: none;
+                        border-radius: 0.7em;
+
+                        font-size: medium;
+                    }
+
+                article .btn
+                    {
+                        height: 2.5em;
+                        width: 4em;
+
+                        margin-left: 0.5em;
+
+                        border: solid 1px transparent;
+                        border-radius: 0.5em;
+                        background: rgb(255, 255, 255);
+
+                        font-size: medium;
+                        outline: none;
+
+                        transition: all 0.3s ease;
+                        cursor: pointer;
+                    }
+                    
+                    article .btn:hover
+                        {
+                            background: rgb(230, 227, 227);
+                        }
+                    
+                    article .btn:active
+                        {
+                            background: rgb(196, 195, 195);
+                        }
+
+                nav ul 
+                    {
+                        list-style: none;
+                        display: inline-flex;
+                    }
+                
+                nav ul li
+                    {
+                        padding: 0 0.75em;
+                    }
+                
+                    nav ul li:hover
+                            {
+                                border-bottom: solid 0.25px rgb(151, 19, 168);
+                            }
+
+                    nav ul li a
+                        {
+                            text-decoration: none;
+                            color: rgb(131, 136, 180);
+
+                            outline: none;
+                        }
+
+                       
+                        nav ul li .icon
+                            {
+                                width: auto;
+                                height: 3em;
+                            }
+        .banner
+            {
+                float: right;
+                width: 30%;
+                height: 100vh;
+                background: url(../img/background.jpg);
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                font-family: 'Lobster';
+                text-align: center;
+                color: #fff;
+                font-size: larger;
+            }
+    
+    footer
+        {
+            position: fixed;
+            bottom: 0.5em;
+
+            right:0;
+            width: 30%;
+
+            font-family: 'Manrope';
+            text-align: center;
+        }
