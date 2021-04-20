@@ -1,16 +1,4 @@
-@font-face
-    {
-        font-family: 'Lobster';
-        src: local('../fonts/lobster/Lobster 1.4.otf'),
-            url('../fonts/lobster/Lobster 1.4.otf')
-    }
-
-@font-face
-    {
-        font-family: 'Manrope';
-        src: local('../fonts/Manrope/Manrope-VariableFont_Wght.ttf'),
-            url('../fonts/Manrope/Manrope-VariableFont_Wght.ttf')
-    }
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
 
 *
     {
